@@ -1,0 +1,49 @@
+body{
+  background:   #656565;
+  color:   #75b7f4;
+}
+a{
+ color: inherit;
+ text-decoration:none;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  padding: 0px 30px;
+  background:   #656565;
+  height: 75px;
+  top: 0;
+}
+section{
+  padding: 20px 30px;
+}
+nav{
+  display: flex;
+  gap: 28px;
+}
+nav a:hover{
+  color:  #626060;
+}
+*{box-sizing: border-box;}
+footer{
+  padding: 20px 30px;
+  font-size: 11px
+}
+#top{
+  padding-top: 40px;
+}
+
+/* Works */
+#works-grid {
+    display: grid;
+    grid-template-coulumns: repeat(3, 1fr);
+    gap: 30px;
+}
